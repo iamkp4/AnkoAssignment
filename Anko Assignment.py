@@ -766,7 +766,7 @@ y_train = y_res
 X_train.columns
 
 
-# # Model - Logistic Regression
+# # Model - Machine Learning Model
 
 # In[145]:
 
@@ -798,6 +798,7 @@ plt.hist(predictions)
 
 # In[149]:
 
+# Checking/Comparing with results of LogisticRegression Model
 
 from sklearn.linear_model import LogisticRegression
 
